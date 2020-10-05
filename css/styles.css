@@ -6,21 +6,6 @@ body {
   background-color: white;
 }
 
-.container {
-  max-width: 100%;
-  margin: auto;
-}
-
-.gallery {
-  max-width: 1000px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-template-rows: minmax(200px, auto);
-  grid-gap: 20px;
-  justify-content: center;
-  margin: auto;
-}
-
 .searchbar {
   border: solid 2px grey;
   border-radius: 5px;
@@ -35,4 +20,19 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+.gallery {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: minmax(200px, auto);
+  grid-gap: 20px;
+  justify-content: center;
+  margin: auto;
 }
